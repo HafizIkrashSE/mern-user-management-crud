@@ -2,9 +2,9 @@
 
 A full-stack **MERN CRUD application** for managing users. This project connects a React frontend with an Express.js and MongoDB backend to perform complete Create, Read, Update, and Delete operations.
 
-## 🚀 Live Demo
+## Project Screenshot
+<img width="950" height="497" alt="image" src="https://github.com/user-attachments/assets/408056cf-8783-4435-8123-c4c6901a60e3" />
 
-**Live URL:** Add your deployed URL here
 
 ## 📌 Features
 
