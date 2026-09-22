@@ -13,7 +13,7 @@ function CreateUser() {
  const Submit = (e) => {
   e.preventDefault();
 
-  axios.post("https://mern-user-management-crud-4n17.vercel.app/createUser", {
+  axios.post("https://mern-user-management-crud-xndj.vercel.app/createUser", {
     name,
     email,
     age
