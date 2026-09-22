@@ -10,19 +10,20 @@ function CreateUser() {
   const [age, setAge] = useState();
   const navigate = useNavigate();
 
-  const Submit = (e) => {
-    e.preventDefault();
-    axios.post("http://localhost:3001/createUser" , {
-      name,
-      email,
-      age
-    })
-    .then(result => {
-      console.log(result)
-      navigate('/')
-    })
-    .catch(err => console.log(err))
-  }
+ const Submit = (e) => {
+  e.preventDefault();
+
+  axios.post("https://mern-user-management-crud-4n17.vercel.app/createUser", {
+    name,
+    email,
+    age
+  })
+  .then(result => {
+    console.log(result);
+    navigate("/");
+  })
+  .catch(err => console.log(err));
+};
 
   return (
     <div className="bg-primary min-vh-100 d-flex align-items-center">
